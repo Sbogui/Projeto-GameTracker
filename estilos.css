@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--cinza-escuro);
+}
+
+:root{
+    --roxo-destaque: #8A2BE2;
+    --roxo-escuro: #3A0F5F;
+    --preto: #000000;
+    --cinza-escuro: #2B2B2B;
+    --cinza-claro: #A0A0A0;
+    --branco: #FFFFFF;
+}
+
+body{
+    background-color: var(--preto);
+    border-radius: 5px;
+    color: var(--branco);
+}
+
+header{
+    display: grid;
+    padding: 10px;
+    background-color: var(--cinza-escuro);    
+}
+
+footer{
+    padding: 20px;
+    color: var(--branco);
+    background-color: var(--cinza-escuro);
+}
+
+.container{
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--roxo-escuro);
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--branco);
+    gap: 10px;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--roxo-escuro);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#item{
+    width: 99%;
+    font-size: 15px;
+    color: var(--branco);
+    background-color: var(--cinza-escuro);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item2{
+    background-color: var(--cinza-escuro);
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    border: solid 1px var(--roxo-destaque);
+    text-align: center;
+}
+
+nav{
+    background-color:#2B2B2B;
+    border: solid 1px var(--roxo-destaque);
+}
+
+.item3{
+    background-color: var(--cinza-escuro);
+    padding: 10px;
+    width: 30%;     
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#imgcab{
+    border-radius: 10px;
+    border: solid 1px var(--roxo-destaque);
+}
+
+fieldset, legend{
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+    
+}
+
+form{
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+main{
+    padding: 10px;
+    
+}
+
+.carousel-inner{
+    background-color: var(--cinza-escuro);
+}
+
+.carousel-img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel{
+    max-width: 900px;
+    margin: auto;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.carousel-caption h2{
+    color: #a456ec;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 40px;
+}
+
+.carousel-caption p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card{
+    transition: transform 0.3s;
+    border: solid 1px var(--roxo-destaque);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
