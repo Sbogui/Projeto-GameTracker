@@ -38,16 +38,27 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     color: var(--branco);
     gap: 10px;
+    margin: 10px;
 }
 
 .container2{
-    width: 100%;
+    width: 99%;
     display: flex;
     justify-content: space-between;
     background-color: var(--roxo-escuro);
     padding: 20px;
     border-radius: 5px;
     margin: 5px;
+}
+
+.container3{
+    width: 99%;
+    border-radius: 5px;
+    background-color: var(--roxo-escuro);
+    color: var(--branco);
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
 }
 
 #item{
@@ -67,6 +78,26 @@ footer{
     width: 30%;
     border-radius: 5px;
     border: solid 1px var(--roxo-destaque);
+    text-align: center;
+}
+
+.item4{
+    background-color: var(--cinza-escuro);
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+    border: solid 1px var(--roxo-destaque);
+    margin: 20px auto;   
+    text-align: center;
+}
+
+.item5{
+    background-color: var(--cinza-escuro);
+    padding: 20px;
+    width: 99%;
+    border-radius: 5px;
+    border: solid 1px var(--roxo-destaque);
+    margin: 20px auto;   
     text-align: center;
 }
 
@@ -92,13 +123,13 @@ fieldset, legend{
     color: white;
     border-radius: 5px;
     margin: 15px;
-    
+    text-align: center;
 }
 
 form{
     margin: 10px;
     border-radius: 5px;
-    
+    text-align: center;
 }
 
 main{
